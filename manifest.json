@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Logo Changer",
+  "version": "1.0",
+  "description": "No more doge, Replace Twitter logo to classic.",
+  "action": {
+    "default_icon": {
+      "48": "old-twitter-logo.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "48": "old-twitter-logo.png"
+  }
+}
