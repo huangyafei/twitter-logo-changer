@@ -5,7 +5,7 @@
   "description": "No more doge, Replace Twitter logo to classic.",
   "action": {
     "default_icon": {
-      "48": "old-twitter-logo.png"
+      "48": "logo.png"
     }
   },
   "permissions": ["activeTab"],
@@ -16,6 +16,6 @@
     }
   ],
   "icons": {
-    "48": "old-twitter-logo.png"
+    "48": "logo.png"
   }
 }
