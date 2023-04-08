@@ -8,7 +8,6 @@
       "48": "logo.png"
     }
   },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*"],
